@@ -1,0 +1,15 @@
+1)- Se puede notar que el tiempo de ejecucion de las 3 tareas en cuestion son el tiempo que tarda la maquina en procesar y el tiempo establecido de espera en la tarea 2 y 3. No es predecible ya que depende del factor maquina en la que lo estemos ejecutando.
+- Un proceso de maxima velocidad posible que dependen de la maquina puede ser el escaneo de codigos que hace un cajero en un supermercado.
+- Un proceso de velocidad de respuesta no dependiente de la velocidad de procesamiento puede ser la respuesta a un mail, ya que depende mas de la disponibilidad de la persona que lo recibe que de la velocidad de la maquina en envierlo.
+
+2)-Lo que se nota es que el tiempo de ejecucion baja en comparacion al programa sin hilos, ya que la maquina procesa las 3 tareas a la misma vez. 
+-No las completan en el orden establecido, la tarea 2 termina mas rapido que la tarea 1 
+-Un ejemplo de multihilado puede ser utilizado en aplicaciones con mucha demanda de usuarios, en donde se puede alivianar la congestion de la misma aplicacion aplicando multiples hilos para cada una de las solicitudes de las diferentes usuarios.
+
+3) -El tiempo de ejecucion es el mismo en los 2 casos.
+- Lo que sucede es que cambia el valor dependiendo la velocidad de cada hilo 
+-Porque ambos hilos estan tratando de acceder a un mismo dato a la vez 
+- Utilizando un bloqueo
+
+4)-El valor final del acumulador es el mismo resultado siempre que se ejecuta
+- El tiempo de ejecucion es el mismo que los otros 2 casos pero ahora solamente se puede acceder al dato de a 1 sola vez.
